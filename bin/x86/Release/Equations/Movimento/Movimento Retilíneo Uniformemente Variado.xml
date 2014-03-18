@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Equation Category="Movimento" Creator="" Eq="S = So + Vot + \frac{at^2}{2}">
+  <Description>No movimento uniformemente variado, o móvel percorre espaços diferentes em intervalos de tempo iguais. ele se caracteriza também por apresentar o móvel aumentando ou diminuindo sua velocidade uniformemente, isto é, numa mesma dose.</Description>
+  <Exercise Correct="4">
+    <Question>Deseja-se calcular a distância que um carro, com velocidade constante V = 72 km/h, percorre em um tempo t = 20 s. Calcule a distância procurada.</Question>
+    <Answer1>40 m</Answer1>
+    <Answer2>80 m</Answer2>
+    <Answer3>300 m</Answer3>
+    <Answer4>400 m</Answer4>
+    <Answer5>500 m</Answer5>
+  </Exercise>
+  <Exercise Correct="2">
+    <Question>Calcule a distância percorrida por um carro, que se movimenta com velocidade constante V = 54 km/h, durante um tempo t = 0,50 h.</Question>
+    <Answer1>21 km</Answer1>
+    <Answer2>27 km</Answer2>
+    <Answer3>30 km</Answer3>
+    <Answer4>45 km</Answer4>
+    <Answer5>54 km</Answer5>
+  </Exercise>
+  <Exercise Correct="5">
+    <Question>Encontre a velocidade, suposta constante, de um nadador que percorre uma distância d = 100 m, em nado livre, em um tempo t = 50 s.</Question>
+    <Answer1>0,2 m/s</Answer1>
+    <Answer2>0,6 m/s</Answer2>
+    <Answer3>1,6 m/s</Answer3>
+    <Answer4>1,8 m/s</Answer4>
+    <Answer5>2,0 m/s</Answer5>
+  </Exercise>
+</Equation>

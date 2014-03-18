@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<Equation Name="Resistividade de um Material" Category="Eletricidade e Magnetismo" Creator="" Eq="R=p\frac{L}{A}">
+  <Description>A resistência de um condutor é tanto maior quanto maior for seu comprimento, do mesmo modo que a resistência de um condutor é tanto maior quanto for a área de sua seção reta, isto é, quanto mais fino for o condutor. Além disso, a resistência de um condutor depende do material de que ele é feito.</Description>
+</Equation>

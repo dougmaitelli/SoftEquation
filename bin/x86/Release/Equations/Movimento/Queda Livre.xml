@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Equation Name="Queda Livre" Category="Movimento" Creator="Galileu Galilei" Eq="V=Vo+gt\;\;\;\;\;d=Vot+\frac{1}{2}gt^2\;\;\;\;\;V^2=Vo^2+2gd">
+  <Description>Entre os diversos movimentos que ocorrem na natureza, houve sempre interesse no estudo do movimento de queda dos corpos próximos à superfície da Terra. Quando abandonamos um objeto (uma pedra, por exemplo) de uma certa altura, podemos verificar que, ao cair, sua velocidade cresce, isto é, o seu movimento é acelerado. Se lançarmos um objeto para cima, sua velocidade diminui gradualmente até se anular no ponto mais alto, isto é, o movimento de subida é retardado. A aceleração da gravidade é, arredondando uma casa após a vírgula, 9,8 m/s², no entanto costumeiramente dizemos que a aceleração da gravidade é 10 m/s².</Description>
+  <Exercise Correct="2">
+    <Question>Um corpo é abandonado (isto é, parte do repouso) do alto de um edifício e gasta 3,0 s para chegar ao solo. Considere a resistência do ar desprezível e g = 10 m/s². Qual a altura do edifício?</Question>
+    <Answer1>30 m</Answer1>
+    <Answer2>45 m</Answer2>
+    <Answer3>60 m</Answer3>
+    <Answer4>75 m</Answer4>
+    <Answer5>90 m</Answer5>
+  </Exercise>
+  <Exercise Correct="2">
+    <Question>Baseando-se nos dados do exercício anterior, agora calcule a velocidade com que o corpo atinge o solo.</Question>
+    <Answer1>90 km/h</Answer1>
+    <Answer2>30 m/s</Answer2>
+    <Answer3>45 m/s</Answer3>
+    <Answer4>100 km/h</Answer4>
+    <Answer5>25 km/s</Answer5>
+  </Exercise>
+  <Exercise Correct="4">
+    <Question>O movimento de queda de um corpo, próximo à superfície de um astro qualquer, é uniformemente variado, como acontece na Terra. Um habitante de um planeta X, desejando medir o valor da aceleração da gravidade neste planeta, abandonou um corpo a uma altura de 64 m e verificou que ele gastou 4,0 s para chegar ao solo. Qual o valor de g no planeta X?</Question>
+    <Answer1>2,0 m/s²</Answer1>
+    <Answer2>4,0 m/s²</Answer2>
+    <Answer3>6,0 m/s²</Answer3>
+    <Answer4>8,0 m/s²</Answer4>
+    <Answer5>10 m/s²</Answer5>
+  </Exercise>
+  <Exercise Correct="1">
+    <Question>Com relação ao exercício 3, Qual a velocidade com que o corpo chegou ao solo do planeta?</Question>
+    <Answer1>115,2 km/h</Answer1>
+    <Answer2>30,5 m/s</Answer2>
+    <Answer3>104,8 km/h</Answer3>
+    <Answer4>24,6 m/s</Answer4>
+    <Answer5>62,0 km/s</Answer5>
+  </Exercise>
+  <Exercise Correct="5">
+    <Question>Um astronauta, na Lua, arremessou um objeto verticalmente para cima, com velocidade inicial de 8,0 m/s. O objeto gastou 5,0 s para atingir o ponto mais alto de sua trajetória. Com esses dados calcule a altura que o objeto alcançou.</Question>
+    <Answer1>11 m</Answer1>
+    <Answer2>14 m</Answer2>
+    <Answer3>16 m</Answer3>
+    <Answer4>18 m</Answer4>
+    <Answer5>20 m</Answer5>
+  </Exercise>
+</Equation>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Equation Name="Diferença de Potencial" Category="Eletricidade e Magnetismo" Creator="" Eq="V_{AB}=\frac{trabalho}{q}">
+  <Description>É quando temos uma força realizada de um trabalho sobre as cargas, transferindo a elas uma certa quantidade de energia.</Description>
+  <Exercise Correct="1">
+    <Question>Numa pilha seca comum, verifica-se, se uma carga q = 5 C for transportada de um ponto A para um ponto B com um trabalho de 7,5 J, qual será a diferença de potencial entre os pólos A e B da pilha?</Question>
+    <Answer1>1,5 J/C</Answer1>
+    <Answer2>2,0 J/C</Answer2>
+    <Answer3>3,0 J/C</Answer3>
+    <Answer4>4,0 J/C</Answer4>
+    <Answer5>4,5 J/C</Answer5>
+  </Exercise>
+</Equation>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Equation Name="Segunda Lei de Newton - Lei da Aceleração" Category="Força" Creator="Isaac Newton" Eq="F = m . a \;\;\; a = \frac{F}{m}">
+  <Description>Segundo Newton, a  ação de uma força sobre determinado corpo pode fazê-lo acelerar. Quanto maior a força aplicada, maior será a aceleração sofrida. Nesse caso, três variáveis são importantes: a intensidade da força (F), o valor da massa do material e a aceleração decorrente da ação da força. Multiplicando a massa pela aceleração, tem-se a intensidade da força. Dividindo a intensidade da força pela massa, tem-se a aceleração. Por fim, dividindo a intensidade da força pela aceleração, encontra-se o valor da massa.</Description>
+  <Exercise Correct="5">
+    <Question>Uma força F = 30 N é aplicada sobre um bloco de ferro cuja massa é 15 kg. Qual o valor da aceleração deste movimento?</Question>
+    <Answer1>0,5 m/s²</Answer1>
+    <Answer2>45 m/s²</Answer2>
+    <Answer3>15 m/s²</Answer3>
+    <Answer4>450 m/s²</Answer4>
+    <Answer5>2 m/s²</Answer5>
+  </Exercise>
+  <Exercise Correct="3">
+    <Question>Um determinado corpo está em repouso sobre uma superfície que oferece atrito desprezível. Uma força (F) é aplicada sobre o corpo, que tem massa de 12 kg e passa a se deslocar em trajetória retilínea com aceleração de 2 m/s². Determine a intensidade da força (F).</Question>
+    <Answer1>6 N</Answer1>
+    <Answer2>144 N</Answer2>
+    <Answer3>24 N</Answer3>
+    <Answer4>28 N</Answer4>
+    <Answer5>10 N</Answer5>
+  </Exercise>
+</Equation>

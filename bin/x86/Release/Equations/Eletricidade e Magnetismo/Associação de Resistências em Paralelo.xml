@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<Equation Name="Associação de Resistências em Paralelo" Category="Eletricidade e Magnetismo" Creator="" Eq="\frac{1}{R}=\frac{1}{R_1}+\frac{1}{R_2}+\frac{1}{R_n}">
+  <Description>Duas lâmpadas foram associadas de tal maneira que existam dois caminhos para passagem de corrente de um pólo da pilha para o outro: dizemos que as lâmpadas estão associadas em paralelo.</Description>
+</Equation>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Equation Category="Hidrostática" Creator="" Eq="p=\frac{F}{A}" Name="Pressão Hidroestática">
+  <Description>Os fluídos que existem na natureza sempre apresentam uma espécie de atrito interno, ou viscosidade. A pressão acontece, por exemplo quando temos um objeto de elevada massa sobre outro, que irá produzir uma compressão que é perpendicular à superfície.
+</Description>
+  <Exercise Correct="3">
+    <Question>Considere uma moça de peso igual a 60 kgf em pé sobre o assoalho de uma sala. Estando descalça, a área total de apoio do seus pés sobre o chão é de 150 cm². Qual a pressão que a moça está exercendo no assoalho?</Question>
+    <Answer1>0,15 kgf/cm²</Answer1>
+    <Answer2>0,20 kgf/cm²</Answer2>
+    <Answer3>0,40 kgf/cm²</Answer3>
+    <Answer4>0,60 kgf/cm²</Answer4>
+    <Answer5>0,75 kgf/cm²</Answer5>
+  </Exercise>
+  <Exercise Correct="5">
+    <Question>Suponha que a moça do exercício anterior estivesse usando sapatos de saltos muito finos. Considere a área da base de cada salto igual a 1 cm² e que a metade do peso da moça se distribui sobre os saltos. Qual a pressão exercida, no assoalho, pelos saltos?</Question>
+    <Answer1>1,5 kgf/cm²</Answer1>
+    <Answer2>6 kgf/cm²</Answer2>
+    <Answer3>10 kgf/cm²</Answer3>
+    <Answer4>12 kgf/cm²</Answer4>
+    <Answer5>15 kgf/cm²</Answer5>
+  </Exercise>
+  <Exercise Correct="2">
+    <Question>A área total de apoio dos alicerces de um edifício é de 200 m². Um engenhiro lhe informa que o solo, sob os alicerces, está suportando uma pressão de 40 kgf/cm². Calcule o peso do edifício.</Question>
+    <Answer1>8,0 x 10E6 kgf</Answer1>
+    <Answer2>8,0 x 10E7 kgf</Answer2>
+    <Answer3>8,0 x 10E8 kgf</Answer3>
+    <Answer4>1,6 x 10E4 kgf</Answer4>
+    <Answer5>1,6 x 10E5 kgf</Answer5>
+  </Exercise>
+  <Exercise Correct="4">
+    <Question>Um bloco de madeira, cujo volume é de 500 cm³, tem massa igual a 300 gramas. Qual a densidade dessa madeira em kg/m³?</Question>
+    <Answer1>200 kg/m³</Answer1>
+    <Answer2>400 kg/m³</Answer2>
+    <Answer3>500 kg/m³</Answer3>
+    <Answer4>600 kg/m³</Answer4>
+    <Answer5>800 kg/m³</Answer5>
+  </Exercise>
+  <Exercise Correct="1">
+    <Question>Um bloco de Pb (chumbo), cujo volume é 0,30 m³, está apoiado no solo sobre uma área de 0,60 m². Considere g = 10 m/s² e calcule, em N/m², a pressão que o bloco de Pb está exercendo no solo.</Question>
+    <Answer1>5,7 x 10E4 N/m²</Answer1>
+    <Answer2>5,7 x 10E5 N/m²</Answer2>
+    <Answer3>5,7 x 10E6 N/m²</Answer3>
+    <Answer4>2,9 x 10E4 N/m²</Answer4>
+    <Answer5>2,9 x 10E6 N/m²</Answer5>
+  </Exercise>
+</Equation>

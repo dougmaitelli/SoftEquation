@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Equation Category="Hidrostática" Creator="Arquímedes" Eq="E=P_{R. desloc.}=\mu gV_{deslocado}" Name="Lei de Arquímedes">
+  <Description>Quando mergulhamos um corpo qualquer em um líquido, verificamos que este exerce, sobre o corpo, uma força de sustentação, isto é, uma força dirigida para cima, que tende a impedir que o corpo afunde no líquido. É também esta força que faz com que, por exemplo, uma pedra pareça mais leve quando imersa na água ou em outro líquido qualquer.</Description>
+  <Exercise Correct="2">
+    <Question>Um barco, cujo peso é 800 kgf, desce navegando em um rio e chega ao mar. Qual o valor do empuxo que ele recebia quando estava no rio?</Question>
+    <Answer1>1600 kgf</Answer1>
+    <Answer2>800 kgf</Answer2>
+    <Answer3>600 kgf</Answer3>
+    <Answer4>400 kgf</Answer4>
+    <Answer5>200 kgf</Answer5>
+  </Exercise>
+  <Exercise Correct="3">
+    <Question>Um bloco de madeira, cujo volume é de 10 litros, está flutuando em água, com metade de seu volume submerso. Qual é, em litros; o volume de água deslocada pelo bloco?</Question>
+    <Answer1>2,5 litros</Answer1>
+    <Answer2>4,0 litros</Answer2>
+    <Answer3>5,0 litros</Answer3>
+    <Answer4>7,0 litros</Answer4>
+    <Answer5>10 litros</Answer5>
+  </Exercise>
+  <Exercise Correct="5">
+    <Question>Qual é, em kgf, o peso desta água deslocada, do exercício anterior?</Question>
+    <Answer1>10 kgf</Answer1>
+    <Answer2>8,0 kgf</Answer2>
+    <Answer3>7,5 kgf</Answer3>
+    <Answer4>6,0 kgf</Answer4>
+    <Answer5>5,0 kgf</Answer5>
+  </Exercise>
+</Equation>

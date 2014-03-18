@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?><Equation Category="Movimento" Creator="" Eq="Vm = \frac{e}{t} \;\;\;\;\; e = vt \;\;\;\;\; t =\frac{e}{v}"><Description>No caso do movimento uniforme, a velocidade (v) do corpo equivale ao espaço (E) por ele percorrido numa unidade de tempo (T). Para determinar a velocidade média do corpo, é preciso dividir o espaço percorrido pelo tempo gasto. Sabendo-se a velocidade do movimento uniforme de um móvel, pode-se calcular o espaço por ele percorrido durante um intervalo de tempo, multiplicando a velocidade do móvel pelo tempo de seu movimento. Por fim, dividindo o espaço pela velocidade, podemos calcular o tempo do movimento.</Description>
+<Exercise Correct="2">
+<Question>
+Um carro percorre a distância entre São Paulo e São José dos Campos (90 km) com Vm= 60 km/h; a distância entre São José dos Campos e Cruzeiro (100 km) com Vm= 100 km/h; entrre Cruzeiro e Rio de Janeiro (210 km) com Vm= 60 km/h. Calcule a velocidade média do carro entre São Paulo e Rio de Janeiro.
+</Question>
+<Answer1>70 km/h</Answer1>
+<Answer2>66,67 km/h</Answer2>
+<Answer3>60 km/h</Answer3>
+<Answer4>65 km/h</Answer4>
+<Answer5>50 km/h</Answer5>
+</Exercise>
+</Equation>

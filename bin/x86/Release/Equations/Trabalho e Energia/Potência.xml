@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Equation Name="Potência" Category="Trabalho e Energia" Creator="" Eq="P =\frac {τrabalho}{tempo}">
+  <Description>Potência é a relação existente entre o trabalho relaizado a o tempo gasto para a sua realização. Digamos que temos dois cavalos que se deslocam no mesmo sentido, por uma mesma distância, puxando uma carroça. Os dois cavalos partem no mesmo instante e fazem essa tarefa utilizando o mesmo trabalho: 3000 J. Só que o cavalo 1 consegue realizar o seu trabalho em meia hora e o cavalo 2 em uma hora. Qual deles tem mais potência? Fácil de deduzir que o cavalo 1 é mais potente que o cavalo 2, não é mesmo? Os dois cavalos realizaram o mesmo trabalho, maos o cavalo 1 cumpriu em menor tempo o trajeto. A unidade de potência sugerida pelo Sistema Internacional é o Watt (W).</Description>
+  <Exercise Correct="1">
+    <Question>O motor de uma máquina produz um trabalho de 620 joules em 25 segundos. Calcule sua potência</Question>
+    <Answer1>24,8 W</Answer1>
+    <Answer2>595 W</Answer2>
+    <Answer3>15500 W</Answer3>
+    <Answer4>645 W</Answer4>
+    <Answer5>25 W</Answer5>
+  </Exercise>
+  <Exercise Correct="4">
+    <Question>Uma bola de 2 kg cai de uma superfície, percorrendo 5 metros em 2 segundos. Calcule a potência da bola nesse intervalo de tempo.</Question>
+    <Answer1>25 W</Answer1>
+    <Answer2>1 kW</Answer2>
+    <Answer3>200 W </Answer3>
+    <Answer4>50 W</Answer4>
+    <Answer5>100 W</Answer5>
+  </Exercise>
+</Equation>

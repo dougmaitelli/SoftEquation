@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Equation Category="Dinâmica" Creator="" Eq="g_{Eq}=g_{Polos}-\omega^2R\;\;\;\;\;g=G\frac{M}{R^2}" Name="Variação de g">
+  <Description>O valor da aceleração da gravidade, g, varia de um ponto da Terra para outro. Na superfície da Lua, o valor de g é bem menor do que na Terra e, em outros planetas, a aceleração da gravidade não é igual a 9,8 m/s².</Description>
+  <Exercise Correct="3">
+    <Question>Os astronautas que desceram na superfície da Lua verificaram experimentalmente o valor da gravidade lunar. Considere os seguintes dados: G = 6,7 x 10E-11 N . m²/kg²; massa da Lua M = 7,4 x 10E22 kg e raio da Lua R = 1,7 x 10E6 m e calcule o valor da gravidade lunar.</Question>
+    <Answer1>1,4 m/s²</Answer1>
+    <Answer2>1,5 m/s²</Answer2>
+    <Answer3>1,6 m/s²</Answer3>
+    <Answer4>1,7 m/s²</Answer4>
+    <Answer5>1,8 m/s²</Answer5>
+  </Exercise>
+  <Exercise Correct="5">
+    <Question>A massa de Júpiter é cerca de 300 vezes maior do que a massa da Terra. Se o raio de Júpiter fosse igual ao raio da Terra, quantas vezes maior do que na Terra seria a aceleração da gravidade em Júpiter?</Question>
+    <Answer1>20 vezes maior</Answer1>
+    <Answer2>100 vezes maior</Answer2>
+    <Answer3>150 vezes maior</Answer3>
+    <Answer4>200 vezes maior</Answer4>
+    <Answer5>300 vezes maior</Answer5>
+  </Exercise>
+  <Exercise Correct="4">
+    <Question>O raio de Júpiter é cerca de 10 vezes maior do que o raio da Terra. Se a massa de Júpiter fosse igual à massa da Terra, quantas vezes menor do que na Terra seria a aceleração da gravidade em Júpiter?</Question>
+    <Answer1>5 vezes menor</Answer1>
+    <Answer2>25 vezes menor</Answer2>
+    <Answer3>50 vezes menor</Answer3>
+    <Answer4>100 vezes menor</Answer4>
+    <Answer5>1000 vezes menor</Answer5>
+  </Exercise>
+  <Exercise Correct="3">
+    <Question>Usando as respostas dos exercícios 2 e 3, diga quantas vezes maior do que a Terra é a aceleração da gravidade em Júpiter.</Question>
+    <Answer1>1,5 vezes maior</Answer1>
+    <Answer2>2 vezes maior</Answer2>
+    <Answer3>3 vezes maior</Answer3>
+    <Answer4>5 vezes maior</Answer4>
+    <Answer5>10 vezes maior</Answer5>
+  </Exercise>
+  <Exercise Correct="3">
+    <Question>Logo, qual é o valor aproximado de g em Júpiter?</Question>
+    <Answer1>15 m/s²</Answer1>
+    <Answer2>20 m/s²</Answer2>
+    <Answer3>30 m/s²</Answer3>
+    <Answer4>50 m/s²</Answer4>
+    <Answer5>400 km/h</Answer5>
+  </Exercise>
+</Equation>

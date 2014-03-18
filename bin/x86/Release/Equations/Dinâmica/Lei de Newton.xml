@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Equation Category="Dinâmica" Creator="Newton" Eq="F = G \frac{M_m}{R^2}" Name="Lei de Newton">
+  <Description>Estudando o movimento dos planetas, apoiando-se nas leis de Kepler, Newton observou que, como eles descrevem órbitas em torno do Sol, devem estar sujeitos a uma força centrípeta pois, do contrário, suas trajetórias não seriam curvas. Ao raciocinar desta maneira, Newton estava admitindo que as suas leis do movimento seriam válidas também para os corpos celestes.</Description>
+  <Exercise Correct="2">
+    <Question>A força de atração do Sol sobre a Terra vale, aproximadamente, 4 x 10E22 N. Dizer qual seria o valor desta força supondo que a massa da Terra fosse três vezes maior.</Question>
+    <Answer1>1,2 x 10E22 N</Answer1>
+    <Answer2>12 x 10E22 N</Answer2>
+    <Answer3>2,4 x 10E22 N</Answer3>
+    <Answer4>24 x 10E23 N</Answer4>
+    <Answer5>3,6 x 10E23 N</Answer5>
+  </Exercise>
+  <Exercise Correct="4">
+    <Question>Continuando com o enunciado do 1º exercício, responda-a no caso de a massa do Sol ser duas vezes menor.</Question>
+    <Answer1>1,2 x 10E22 N</Answer1>
+    <Answer2>1,2 x 10E23 N</Answer2>
+    <Answer3>1,6 x 10E22 N</Answer3>
+    <Answer4>2 x 10E22 N</Answer4>
+    <Answer5>22 x 10E22 N</Answer5>
+  </Exercise>
+  <Exercise Correct="1">
+    <Question>Ainda, com relação ao 1º exercício, qual o valor da força se a distância entre a Terra e o Sol fosse duas vezes maior.</Question>
+    <Answer1>1 x 10E22 N</Answer1>
+    <Answer2>2 x 10E22 N</Answer2>
+    <Answer3>2 x 10E23 N</Answer3>
+    <Answer4>10 x 10E22 N</Answer4>
+    <Answer5>10 x 10E23 N</Answer5>
+  </Exercise>
+  <Exercise Correct="1">
+    <Question>Para que você possa perceber de como é pequena a força de atração gravitacional entre dois objetos "comuns", calcule a força com que se atraem duas pessoas. Suponha, que as massas dessas pessoas sejam m1 = m2 = 100 kg, que a distância entre elas é R = 1 m e considere G = 10E-10 N . m²/kg².</Question>
+    <Answer1>10E-6 N</Answer1>
+    <Answer2>10E-5 N</Answer2>
+    <Answer3>10E-4 N</Answer3>
+    <Answer4>10E-3 N</Answer4>
+    <Answer5>10E-2 N</Answer5>
+  </Exercise>
+  <Exercise Correct="3">
+    <Question>Como os corpos celestes têm massas enormes, a força gravitacional entre eles é muito grande (embora a distância que os separa seja, também, muito grande). Para você verificar isto, calcule o valor aproximado da força de atração entre a Terra e Lua, considerando G = 10E-10 N . m²/kg², massa da Terra MT = 10E25 kg, massa da Lua ML = 10E23 kg e distância da Terra à Lua R = 10E8 m.</Question>
+    <Answer1>1,0E22 N</Answer1>
+    <Answer2>10E21 N</Answer2>
+    <Answer3>10E22 N</Answer3>
+    <Answer4>10E23 N</Answer4>
+    <Answer5>1,0E25 N</Answer5>
+  </Exercise>
+</Equation>

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<Equation Category="Dinâmica" Creator="Kepler" Eq="A = K \Delta t" Name="2ª Lei de Kepler">
+  <Description>A reta que une um planeta ao Sol "varre" áreas iguais em tempos iguais.</Description>
+</Equation>

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<Equation Name="Primeira Lei de Newton - Lei da Inércia" Category="Força" Creator="Isaac Newton" Eq=".">
+  <Description>Segundo Newton, um corpo tende a permanecer em repouso ou em movimento uniforme ao longe de uma linha reta ao menos que sofra a ação de uma força externa. Imagine um indivíduo sentado na poltrona de um ônibus em movimento. Nesse caso temos um ônibus se deslocando a 60 km/h, contudo o passageiro lá no fundo está em repouso em relação ao ônibus e em movimento em relação à rua. Se, por algum motivo, o ônibus parar completamente o movimento em relação à rua, o passageiro, por inércia, continuará em movimento em relação à rua e poderá ser projetado para a frente.</Description>
+</Equation>

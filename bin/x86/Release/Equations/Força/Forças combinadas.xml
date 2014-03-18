@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Equation Name="Forças combinadas" Category="Força" Creator="" Eq="R = F1 - F2 \;\;\;\; R = F1 + F2">
+  <Description>As forças geralmente atuam combinadas. Por exemplo, o peso de um barco o empurra para baixo, mas a água produz força igual para cima, o que impede que o barco afunde. O resultado final de duas ou mais forças agindo sobre um corpo é chamado Resultante (R). A Resultante (R) é uma única força que tem o efeito das duas forças combinadas. As forças combinadas constituem um sistema de forças. Para encontrarmos a intensidade da Resultante (R) da ação de duas ou mais forças que atuam em sentidos contrários, basta tirar a diferença das intensidades. Para encontrarmos a Resultante (R) da ação de duas ou mais forças atuando num mesmo sentido, basta somar a intensidade de cada uma delas.</Description>
+  <Exercise Correct="4">
+    <Question>Na gincana de uma escola, foi aplicada entre duas turmas uma competição de "cabo de guerra". A turma A puxava a ponta esquerda da corda, com intensidade de 100 N. A turma B puxava a direita da corda, com intensidade 80 N. Qual a força resultante do movimento?</Question>
+    <Answer1>180 N</Answer1>
+    <Answer2>120 N</Answer2>
+    <Answer3>30 N</Answer3>
+    <Answer4>20 N</Answer4>
+    <Answer5>15 N</Answer5>
+  </Exercise>
+  <Exercise Correct="3">
+    <Question>O carro de João teve um sério problema em meio à uma estrada. Para levá-lo ao acostamento, João pediu a ajuda de seu filho Pedro para empurrá-lo. João exerceu uma força de 72 N, enquanto Pedro empurrou com 30 N. Qual a força resultante exercida por João e Pedro?</Question>
+    <Answer1>42 N</Answer1>
+    <Answer2>52 N</Answer2>
+    <Answer3>102 N</Answer3>
+    <Answer4>12 N</Answer4>
+    <Answer5>112 N</Answer5>
+  </Exercise>
+</Equation>

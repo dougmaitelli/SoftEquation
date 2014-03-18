@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<Equation Name="Força Eletromotriz de um Gerador" Category="Eletricidade e Magnetismo" Creator="" Eq="\epsilon=\frac{trabalho}{q}">
+  <Description>Quando as cargas elétricas passam através de um motor, elas perdem energia elétrica, que se transforma em energia mecânica. Portanto, um motor elétrico, ao contrário de um gerador de f.e.m., retira energia das cargas elétricas e, por este motivo, é denominado um receptor ou um gerador de força contra-eletromotriz.</Description>
+</Equation>

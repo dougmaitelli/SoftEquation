@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Equation Name="Peso e Gravidade" Category="Força" Creator="" Eq="P = m . g">
+  <Description>Muitas pessoas confundem peso e massa, que na verdade são grandezas diferentes. A massa é a quantidade de matéria existente em um corpo ou em uma substância , mas o peso é uma força. Em torno da Terra, há uma região denominada Campo Gravitacional, na qual todos os corpos sofrem sua influência e que se apresenta sob a forma de uma força, a força da gravidade. Dentro do Campo Gravitacional, todos os corpos são atraídos pela força de gravidade, sofrendo variações de velocidade em virtude de terem adquirido aceleração. A essa aceleração dá-se o nome de aceleração da gravidade (g). Na Terra, a aceleração da gravidade vale 9,8 m/s². Na Lua, vale 1,6 m/s².</Description>
+  <Exercise Correct="5">
+    <Question>Uma pedra, quando está na Terra, tem peso de 68 N. Admitindo-se 10 m/s² a aceleração da gravidade da Terra, calcule o peso da pedra na Lua, admitindo-se 1,7 m/s² a aceleração da gravidade desse astro.</Question>
+    <Answer1>115,6 kg</Answer1>
+    <Answer2>6,8 kg</Answer2>
+    <Answer3>17 kg</Answer3>
+    <Answer4>40 kg</Answer4>
+    <Answer5>11,56 kg</Answer5>
+  </Exercise>
+</Equation>

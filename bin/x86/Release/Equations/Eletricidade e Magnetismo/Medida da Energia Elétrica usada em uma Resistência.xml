@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<Equation Name="Medida da Energia Elétrica usada em uma Resistência" Category="Eletricidade e Magnetismo" Creator="" Eq="E=P.t">
+  <Description>Quanto maior for a potência de um aparelho elétrico e quanto maior for o tempo que ele permanece ligado, maior será a quantidade de energia elétrica que ele utilizará.</Description>
+</Equation>

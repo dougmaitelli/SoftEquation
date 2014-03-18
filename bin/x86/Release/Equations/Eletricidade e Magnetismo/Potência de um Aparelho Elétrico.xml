@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<Equation Name="Potência de um Aparelho Elétrico" Category="Eletricidade e Magnetismo" Creator="" Eq="P=i.V\;\;\;\;\;P=R.i^2">
+  <Description>A potência dos aparelhos elétricos nos é útil para podermos determinar a eficiência dos mesmos e o calor que eles produzirão, através do Efeito Joule, que ocorre quando uma corrente elétrica passa em uma resistência, que a partir disso irá se aquecer.</Description>
+</Equation>

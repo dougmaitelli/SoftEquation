@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<Equation Category="Dinâmica" Creator="Kepler" Eq="\frac{T^2}{R^3}=K_p=\frac{G_gol}{4\pi^2}" Name="3ª Lei de Kepler">
+  <Description>Os quadrados dos períodos de revolução dos planetas são proporcionais aos cubos dos raios de suas órbitas.</Description>
+</Equation>

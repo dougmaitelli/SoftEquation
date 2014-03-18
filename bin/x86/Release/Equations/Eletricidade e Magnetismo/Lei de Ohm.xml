@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Equation Name="Lei de Ohm" Category="Eletricidade e Magnetismo" Creator="Ohm" Eq="R=\frac{V}{i}">
+  <Description>A corrente estabelecida em um condutor metálico é diretamente proporcional à tensão a ele aplicada, de modo que sua resistência permanece constante, não dependendo da tensão aplicada. Resumindo: qunado aplicamos a mesma tensão a vários condutores, aquele que possuir maior resistência elétrica será percorrido pela menor corrente.</Description>
+  <Exercise Correct="1">
+    <Question>Uma resistência metálica R, submetida a uma tensão de 1,5 V, é percorrida por uma corrente de 100 mA. Sabendo isso, calcule a resistência metálica.</Question>
+    <Answer1>15 ohms</Answer1>
+    <Answer2>20 ohms</Answer2>
+    <Answer3>25 ohms</Answer3>
+    <Answer4>0,015 ohms</Answer4>
+    <Answer5>0,020 ohms</Answer5>
+  </Exercise>
+</Equation>

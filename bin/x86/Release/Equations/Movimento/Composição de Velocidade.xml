@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Equation Name="Composição de Velocidade" Category="Movimento" Creator="" Eq="V=\sqrt{V_1\;^2+V_2\;^2}\;\;\;\;\;V=\sqrt{V_1\;^2-V_2\;^2}">
+  <Description>Ocorre quando um corpo possui, simultaneamente, duas ou mais velocidades em relação a um observador. Por exemplo: um barco que se movimenta em um rio enquanto é arrastado pela correnteza, uma pessoa que caminha dentro de um veículo enquanto é levada pelo próprio veículo etc.</Description>
+  <Exercise Correct="4">
+    <Question>Um avião está voando com uma velocidade em relação ao ar Va = 200 km/h. Em um dado instante começa a soprar um vento forte, com uma velocidade Vv = 80 km/h, dirigida do Norte para o Sul. Qual será a velocidade do avião em relação à Terra supondo que ele está voando do Norte para o Sul?</Question>
+    <Answer1>45 m/s</Answer1>
+    <Answer2>60 m/s</Answer2>
+    <Answer3>75 m/s</Answer3>
+    <Answer4>280 km/h</Answer4>
+    <Answer5>320 km/h</Answer5>
+  </Exercise>
+  <Exercise Correct="3">
+    <Question>Agora ache a velocidade do avião em relação à Terra supondo que ele está voando do Sul para o Norte.</Question>
+    <Answer1>16,67 m/s</Answer1>
+    <Answer2>26,52 m/s</Answer2>
+    <Answer3>33,33 m/s</Answer3>
+    <Answer4>144,22 km/h</Answer4>
+    <Answer5>112,86 km/s</Answer5>
+  </Exercise>
+  <Exercise Correct="1">
+    <Question>Um menino, nadando com velocidade Vm, deve atravessar um rio cuja correnteza tem uma velocidade Vc, suponha que ele queira seguir uma trajetória perpendicular às margens do rio. Para isso o menino nada orientando sua velocidade numa direção que forma um ângulo theta com a margem. Considerando que Vc = 0,50 m/s e Vm = 3,6 km/h, calcule o valor de theta para que o menino siga a trajetória perpendicular.</Question>
+    <Answer1>60°</Answer1>
+    <Answer2>65°</Answer2>
+    <Answer3>70°</Answer3>
+    <Answer4>75°</Answer4>
+    <Answer5>80°</Answer5>
+  </Exercise>
+</Equation>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Equation Category="Movimento" Creator="" Eq="a =\frac{Vf - Vi}{t}" Name="Aceleração Escalar Média">
+  <Description>No movimento uniforme variado, a velocidade varia com o tempo. Quando a velocidade aumenta com o tempo, o movimento é acelerado. Quando a velocidade diminui com o tempo, o movimento é retardado. Por exemplo: a velocidade de uma bola que cai, aumenta com o tempo de queda, então, o movimento é acelerado; ao contrário, a velocidade de uma bola lançada para baixo, diminui com o tempo, então, esse movimento é retardado. À essa variação de velocidade com o decorrer do tempo dá-se o nome de Aceleração Escalar Média. Ela é dada pela razão da variação de sua velocidade pelo tempo em que ocorre a variação. A variação de velocidade é a diferença entre a velocidade final e a velocidade inicial.</Description>
+  <Exercise Correct="5">
+    <Question>Um carro parte do repouso e atinge a velocidade de 15 m/s ao fim de 3 s. Qual o valor da aceleração?</Question>
+    <Answer1>10 m/s²</Answer1>
+    <Answer2>12 m/s²</Answer2>
+    <Answer3>18 m/s²</Answer3>
+    <Answer4>45 m/s²</Answer4>
+    <Answer5>5 m/s²</Answer5>
+  </Exercise>
+  <Exercise Correct="4">
+    <Question>Um carro, num declive, atingiu a velocidade de 8 m/s, tendo acelerado 2 m/s². Considerando que o carro partiu do repouso, em quanto tempo ele alcançou essa velocidade?</Question>
+    <Answer1>16 s.</Answer1>
+    <Answer2>0,25 s.</Answer2>
+    <Answer3>10 s.</Answer3>
+    <Answer4>4 s.</Answer4>
+    <Answer5>12 s.</Answer5>
+  </Exercise>
+</Equation>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Equation Name="Movimento Circular Uniforme" Category="Movimento" Creator="" Eq="V=\frac{2\pi R}{T}\;\;\;\;\;\omega =\frac{2\pi}{T}\;\;\;\;\;f=\frac{1}{T}\;\;\;\;\;\omega =\frac{\Delta\theta}{\Delta t}\;\;\;\;\;V=\omega R\;\;\;\;\;ac=\frac{V^2}{R}">
+  <Description>Dizemos que uma partícula está em movimento circular quando sua trajetória é uma circunferência como, por exemplo, a trajetória descrita por uma pedra que gira presa na ponta de um barbante. Se, além disso, o valor da velocidade permanecer constante, o movimento é denominado circular uniforme. Então, neste movimento, o vetor velocidade tem módulo constante, mas a direção deste vetor varia continuamente.</Description>
+  <Exercise Correct="3">
+    <Question>Um carro  encontra-se em movimento circular uniforme numa pista horizontal. Suponha que a pista tenha um R = 100 m e que o carro faça 2 voltas, na pista, por minuto. Qual é, em segundos, o período do movimento do carro?</Question>
+    <Answer1>10 s</Answer1>
+    <Answer2>20 s</Answer2>
+    <Answer3>30 s</Answer3>
+    <Answer4>40 s</Answer4>
+    <Answer5>50 s</Answer5>
+  </Exercise>
+  <Exercise Correct="2">
+    <Question>Com relação ao exercício 1, qual é, em hertz, a frequência deste movimento?</Question>
+    <Answer1>0,013 hertz</Answer1>
+    <Answer2>0,033 hertz</Answer2>
+    <Answer3>0,05 hertz</Answer3>
+    <Answer4>0,067 hertz</Answer4>
+    <Answer5>0,5 hertz</Answer5>
+  </Exercise>
+  <Exercise Correct="5">
+    <Question>Ainda com relação ao 1º problema, qual é a distância que o carro percorre em cada volta (comprimento da circunferência)?</Question>
+    <Answer1>501 m</Answer1>
+    <Answer2>536 m</Answer2>
+    <Answer3>574 m</Answer3>
+    <Answer4>614 m</Answer4>
+    <Answer5>628 m</Answer5>
+  </Exercise>
+  <Exercise Correct="5">
+    <Question>Qual é o valor da velocidade linear do carro do 1º exercício?</Question>
+    <Answer1>1,8 m/s</Answer1>
+    <Answer2>12 m/s</Answer2>
+    <Answer3>15 m/s</Answer3>
+    <Answer4>18 m/s</Answer4>
+    <Answer5>21 m/s</Answer5>
+  </Exercise>
+  <Exercise Correct="1">
+    <Question>Qual o valor da aceleração centrípeta do carro do exercício 1?</Question>
+    <Answer1>4,4 m/s²</Answer1>
+    <Answer2>4,9 m/s²</Answer2>
+    <Answer3>5,1 m/s²</Answer3>
+    <Answer4>8,1 m/s²</Answer4>
+    <Answer5>44 m/s²</Answer5>
+  </Exercise>
+</Equation>

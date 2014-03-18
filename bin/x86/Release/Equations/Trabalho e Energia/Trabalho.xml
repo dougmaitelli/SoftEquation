@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<Equation Name="Trabalho" Category="Trabalho e Energia" Creator="" Eq="τ = F . d">
+  <Description>O deslocamento de um corpo devido à ação de uma força produz um trabalho. Quando você empurra uma caixa, por exemplo, ocorrerá um deslocamento em virtude da força empregada. Fisicamente falando, a força que você aplicou produziu um trabalho. Quanto maior a força aplicada (F) ou quanto maior o deslocamento (d), maior será o trabalho (τ) realizado. Se não houver deslocamento, mesmo com a ação de uma força, o trabalho será nulo. A unidade de trabalho sugerida pelo Sistema Internacional é o Joule (J), que é a unidade utilizada para a energia também.
+</Description>
+  <Exercise Correct="2">
+    <Question>Uma bola de 2kg cai de uma superfície, percorrendo 5 metros em 2 segundos. Calcule o trabalho do peso da bola. Considere g = 10 m/s².</Question>
+    <Answer1>4 J</Answer1>
+    <Answer2>100 J</Answer2>
+    <Answer3>50 J</Answer3>
+    <Answer4>25 J</Answer4>
+    <Answer5>120 J</Answer5>
+  </Exercise>
+</Equation>

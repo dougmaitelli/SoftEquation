@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Equation Name="Terceira Lei de Newton - Lei da Ação e Reação" Category="Força" Creator="Isaac Newton" Eq=".">
+  <Description>Segundo Newton, quando um corpo exerce uma força sobre o outro, haverá uma reação, isto é, o outro corpo exercerá uma força de igual intensidade, mas em sentido contrário. Se você empurra uma parece (ação), haverá uma reação, ou seja, a parede exercerá uma força contra sua mão. Como as duas forças têm a mesma intensidade, mas sentidos opostos, a Resultante (R) é igual a zero, portanto, as forças se anulam. Uma bola de tênis pingando sobre o chão é um exemplo: A bola exerce uma força contra o chão, e ele exerce uma força contrária à bola.</Description>
+  <Exercise Correct="2">
+    <Question>Um objeto sofre a ação de uma força (F) de intensidade igual a 25 N. O objeto desloca-se em trajetória retilínea sobre uma superfície livre de atrito. Sabendo que a massa do objeto é de 10 kg, calcule a aceleração desenvolvida por ele. </Question>
+    <Answer1>15 m/s²</Answer1>
+    <Answer2>2,5 m/s²</Answer2>
+    <Answer3>250 m/s²</Answer3>
+    <Answer4>0,4 m/s²</Answer4>
+    <Answer5>10 m/s²</Answer5>
+  </Exercise>
+</Equation>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Equation Category="Movimento" Creator="" Eq="V = Vo + at" Name="Velocidade">
+  <Description>Equação responsável por calcular a velocidade atual de um objeto com aceleração constante. V igual a velocidade atual, Vo é a velocidade inicial , a aceleração representada por a, e t é igual ao tempo do movimento.</Description>
+  <Exercise Correct="1">
+    <Question>Calcule a velocida de de um carro que tenha aceleração igual a 3 m/s² e que parta de uma velocidade 30 km/h no instante t = 7,0 s.</Question>
+    <Answer1>105,6 km/h</Answer1>
+    <Answer2>51,0 km/h</Answer2>
+    <Answer3>35,7 m/s</Answer3>
+    <Answer4>29,3 m/s</Answer4>
+    <Answer5>115,8 km/h</Answer5>
+  </Exercise>
+</Equation>

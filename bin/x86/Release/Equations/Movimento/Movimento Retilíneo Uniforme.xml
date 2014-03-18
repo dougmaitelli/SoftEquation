@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Equation Category="Movimento" Creator="Einstein" Eq="S = So + vt" Name="Movimento Retilíneo Uniforme">
+  <Description>O movimento uniforme é aquele em que o móvel percorre espaços iguais em intervalos de tempo iguais. No caso, a velocidade do corpo equivale ao espaço percorrido durante uma unidade de tempo. Aqui temos a equação que calcula a posição atual (S) do movimento. São necessários os itens posição inicial (So), velocidade (v) e tempo (t).</Description>
+  <Exercise Correct="1">
+    <Question>Um corpo em movimento retilíneo uniformemente acelerado possui, no instante t = 0, uma velocidade inicial Vo = 5,0 m/s e sua aceleração é a = 1,5 m/s². Calcule o aumento da velocidade do corpo no intervalo de zero a 8,0 s.</Question>
+    <Answer1>12 m/s</Answer1>
+    <Answer2>15 m/s</Answer2>
+    <Answer3>16 m/s</Answer3>
+    <Answer4>20 m/s</Answer4>
+    <Answer5>24 m/s</Answer5>
+  </Exercise>
+  <Exercise Correct="3">
+    <Question>Ainda de acordo com o exercício anterior, calcule a velocidade do corpo no instante t = 8,0 s.</Question>
+    <Answer1>11 m/s</Answer1>
+    <Answer2>13 m/s</Answer2>
+    <Answer3>17 m/s</Answer3>
+    <Answer4>19 m/s</Answer4>
+    <Answer5>34 m/s</Answer5>
+  </Exercise>
+  <Exercise Correct="5">
+    <Question>Um carro está se movendo com uma velocidade de 12 m/s. Em um certo instante (t = 0) o motorista pisa no freio, fazendo com que o carro adquira um movimento uniforme retardado, com uma aceleração cujo valor numérico é 1,0 m/s². Calcule a velocidade deste automóvel após percorrer uma distância de 40 m a partir do início da freiada.</Question>
+    <Answer1>3,0 m/s</Answer1>
+    <Answer2>5,0 m/s</Answer2>
+    <Answer3>6,0 m/s</Answer3>
+    <Answer4>7,5 m/s</Answer4>
+    <Answer5>8,0 m/s</Answer5>
+  </Exercise>
+</Equation>

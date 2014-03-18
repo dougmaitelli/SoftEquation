@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Equation Name="Corrente Elétrica" Category="Eletricidade e Magnetismo" Creator="" Eq="i=\frac{q}{t}">
+  <Description>A corrente elétrica é constituída pelo movimento ordenado de cargas elétrica em um condutor, produzido pela ação de uma força elétrica. Quando não há corrente elétrica no condutor, seus elétrons livres encontram-se em movimento desordenado, em todas as direções, em virtude da agitação térmica.</Description>
+  <Exercise Correct="5">
+    <Question>Durante um tempo de 10 segundos, passa uma carga q = 50 C. Qual a intensidade da corrente?</Question>
+    <Answer1>400 mA</Answer1>
+    <Answer2>2,5 A</Answer2>
+    <Answer3>3 A</Answer3>
+    <Answer4>4 A</Answer4>
+    <Answer5>5 A</Answer5>
+  </Exercise>
+  <Exercise Correct="2">
+    <Question>Qual a quantidade de carga que passa pela seção durante um tempo de 6 segundos com a intensidade da corrente do exercício anterior.</Question>
+    <Answer1>20 C</Answer1>
+    <Answer2>30 C</Answer2>
+    <Answer3>40 C</Answer3>
+    <Answer4>50 C</Answer4>
+    <Answer5>60 C</Answer5>
+  </Exercise>
+</Equation>

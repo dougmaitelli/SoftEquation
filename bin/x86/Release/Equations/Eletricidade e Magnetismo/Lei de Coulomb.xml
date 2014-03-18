@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Equation Name="Lei de Coulomb" Category="Eletricidade e Magnetismo" Creator="Coulomb" Eq="F=K\frac{Q_1.Q_2}{d^2}">
+  <Description>O cientista francês Charles Coulomb, realizando medidas cuidadosas com um dispositivo projetado por ele, conseguiu estabelecer experimentalmente uma expressão matemática que nos permite calcular o valor da força entre dois pequenos corpos eletrizados. Coulomb verificou que o valor dessa força é tanto maior quanto maiores forem os valores das cargas nos corpos, e tanto menos quanto maior foi a disância entre eles.</Description>
+  <Exercise Correct="4">
+    <Question>Duas pequenas esferas, eletrizadas positivamente com cargas Q1 e Q2, estão apoiadas sobre uma mesa isolante, separadas por uma distância d = 5 cm. Verifica-se que essas esferas se repelem com uma força F = 0,4 N. Se triplicarmos os valores das cargas de cada esfera, mantendo invariável a distância d, qual será o novo valor da força de repulsão entre elas?</Question>
+    <Answer1>1,25 N</Answer1>
+    <Answer2>2,5 N</Answer2>
+    <Answer3>3,0 N</Answer3>
+    <Answer4>3,6 N</Answer4>
+    <Answer5>4,5 N</Answer5>
+  </Exercise>
+</Equation>

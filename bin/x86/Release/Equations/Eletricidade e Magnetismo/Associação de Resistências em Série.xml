@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<Equation Name="Associação de Resistências em Série" Category="Eletricidade e Magnetismo" Creator="" Eq="R_t=R_1+R_2+R_n">
+  <Description>Suponha que duas lâmpadas estejam ligadas a uma pilha, de tal modo que haja apenas um caminho para a corrente elétrica fluir de um pólo da pilha para o outro: dizemos que as duas lâmpadas estão associadas em série.</Description>
+</Equation>
