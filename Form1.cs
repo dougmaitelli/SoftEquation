@@ -564,7 +564,7 @@ namespace SoftEquation
             {
                 if (ExportTextDialog.ShowDialog() == DialogResult.OK)
                 {
-                    Microsoft.Office.Interop.Word.Application oWord = new Microsoft.Office.Interop.Word.Application();
+                    /*Microsoft.Office.Interop.Word.Application oWord = new Microsoft.Office.Interop.Word.Application();
                     oWord.Visible = false;
 
                     object oMissing = System.Reflection.Missing.Value;
@@ -588,7 +588,7 @@ namespace SoftEquation
 
                     oDoc.Close(ref oMissing, ref oMissing, ref oMissing);
                     oWord.Quit(ref oMissing, ref oMissing, ref oMissing);
-                    oWord = null;
+                    oWord = null;*/
                 }
             }
             else
