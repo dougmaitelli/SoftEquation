@@ -27,7 +27,7 @@ namespace SoftEquation
 
         private void RenderEq(String eq)
         {
-            CreateGifFromEq("\\reverse\\Huge " + eq + "\\reverse", "temp.gif");
+            CreateGifFromEq("\\reverse\\Huge " + eq + " \\reverse", "temp.gif");
             EquationBox.Image = Image.FromFile("temp.gif");
         }
 
