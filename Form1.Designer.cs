@@ -43,11 +43,8 @@
             this.MenuEditarExercicio = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuExcluirEquacoes = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuAjuda = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuArquivoAjuda = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuSugestoes = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuSobre = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuBusca = new System.Windows.Forms.ToolStripTextBox();
-            this.MenuBuscar = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.ListMenu = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -101,7 +98,6 @@
             this.MenuArquivo,
             this.MenuFerramentas,
             this.MenuAjuda,
-            this.MenuBuscar,
             this.MenuBusca});
             this.MenuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.MenuPrincipal.Name = "MenuPrincipal";
@@ -192,31 +188,15 @@
             // MenuAjuda
             // 
             this.MenuAjuda.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.MenuArquivoAjuda,
-            this.MenuSugestoes,
             this.MenuSobre});
             this.MenuAjuda.Name = "MenuAjuda";
             this.MenuAjuda.Size = new System.Drawing.Size(70, 31);
             this.MenuAjuda.Text = "Ajuda";
             // 
-            // MenuArquivoAjuda
-            // 
-            this.MenuArquivoAjuda.Name = "MenuArquivoAjuda";
-            this.MenuArquivoAjuda.Size = new System.Drawing.Size(235, 30);
-            this.MenuArquivoAjuda.Text = "Arquivo de Ajuda";
-            this.MenuArquivoAjuda.Click += new System.EventHandler(this.MenuArquivoAjuda_Click);
-            // 
-            // MenuSugestoes
-            // 
-            this.MenuSugestoes.Name = "MenuSugestoes";
-            this.MenuSugestoes.Size = new System.Drawing.Size(235, 30);
-            this.MenuSugestoes.Text = "Sugestões";
-            this.MenuSugestoes.Click += new System.EventHandler(this.MenuSugestoes_Click);
-            // 
             // MenuSobre
             // 
             this.MenuSobre.Name = "MenuSobre";
-            this.MenuSobre.Size = new System.Drawing.Size(235, 30);
+            this.MenuSobre.Size = new System.Drawing.Size(155, 30);
             this.MenuSobre.Text = "Sobre...";
             this.MenuSobre.Click += new System.EventHandler(this.MenuSobre_Click);
             // 
@@ -224,14 +204,7 @@
             // 
             this.MenuBusca.Name = "MenuBusca";
             this.MenuBusca.Size = new System.Drawing.Size(148, 31);
-            this.MenuBusca.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MenuBusca_KeyDown);
-            // 
-            // MenuBuscar
-            // 
-            this.MenuBuscar.Name = "MenuBuscar";
-            this.MenuBuscar.Size = new System.Drawing.Size(75, 31);
-            this.MenuBuscar.Text = "Buscar";
-            this.MenuBuscar.Click += new System.EventHandler(this.MenuBuscar_Click);
+            this.MenuBusca.TextChanged += new System.EventHandler(this.MenuBusca_TextChanged);
             // 
             // splitContainer1
             // 
@@ -264,6 +237,7 @@
             // 
             this.ListMenu.AllowColumnReorder = true;
             this.ListMenu.AllowDrop = true;
+            this.ListMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ListMenu.CheckBoxes = true;
             this.ListMenu.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
@@ -517,12 +491,10 @@
         private System.Windows.Forms.ToolStripMenuItem MenuAjuda;
         private System.Windows.Forms.ToolStripMenuItem MenuSobre;
         private System.Windows.Forms.ToolStripTextBox MenuBusca;
-        private System.Windows.Forms.ToolStripMenuItem MenuBuscar;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.ListView ListMenu;
         private System.Windows.Forms.Label Descricao;
         private System.Windows.Forms.ToolStripMenuItem MenuFerramentas;
-        private System.Windows.Forms.ToolStripMenuItem MenuSugestoes;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ToolStripMenuItem MenuArquivo;
@@ -543,7 +515,6 @@
         private System.Windows.Forms.PictureBox EquationBox;
         private System.Windows.Forms.HelpProvider SoftEquationHelp;
         private System.Windows.Forms.ToolStripMenuItem MenuExportarImagens;
-        private System.Windows.Forms.ToolStripMenuItem MenuArquivoAjuda;
         private System.Windows.Forms.Label Categoria;
         private System.Windows.Forms.ToolStripMenuItem ListMenuContextAdicionarExercicio;
         private System.Windows.Forms.ToolStripMenuItem MenuAdicionarExercicio;

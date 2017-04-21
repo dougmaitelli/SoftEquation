@@ -19,23 +19,22 @@ namespace SoftEquation
         public Form1()
         {
             InitializeComponent();
-
-            CreateGifFromEq("\\reverse x", "temp.gif");
         }
 
         [System.Security.SuppressUnmanagedCodeSecurity()]
         [System.Runtime.InteropServices.DllImport("MimeTex.dll")]
         internal static extern int CreateGifFromEq(string expr, string fileName);
 
+        private void RenderEq(String eq)
+        {
+            CreateGifFromEq("\\Huge " + eq, "temp.gif");
+            EquationBox.Image = Image.FromFile("temp.gif");
+        }
+
         private void MenuSobre_Click(object sender, EventArgs e)
         {
             AboutBox SobreDialog = new AboutBox();
             SobreDialog.ShowDialog();
-        }
-
-        private void MenuBuscar_Click(object sender, EventArgs e)
-        {
-            AtualizarMenu();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -47,14 +46,7 @@ namespace SoftEquation
 
         private void ListMenu_DoubleClick(object sender, EventArgs e)
         {
-            if (ListMenu.SelectedItems[0].Checked)
-            {
-                ListMenu.SelectedItems[0].Checked = false;
-            }
-            else
-            {
-                ListMenu.SelectedItems[0].Checked = true;
-            }
+            ListMenu.SelectedItems[0].Checked = !ListMenu.SelectedItems[0].Checked;
 
             XmlDocument doc = new XmlDocument();
             doc.Load("Equations\\" + ListMenu.SelectedItems[0].Group.Name + "\\" + ListMenu.SelectedItems[0].Text + ".xml");
@@ -66,14 +58,7 @@ namespace SoftEquation
             Descricao.Text = element.GetElementsByTagName("Description")[0].InnerText;
             WriteEquation(element.Attributes["Eq"].InnerText);
 
-            if (element.GetElementsByTagName("Exercise").Count > 0)
-            {
-                BotaoExercicios.Enabled = true;
-            }
-            else
-            {
-                BotaoExercicios.Enabled = false;
-            }
+            BotaoExercicios.Enabled = element.GetElementsByTagName("Exercise").Count > 0;
         }
 
         private void WriteEquation(string equation)
@@ -87,17 +72,12 @@ namespace SoftEquation
             {
                 try
                 {
-                    CreateGifFromEq("\\Huge " + equation, "temp.gif");
-                    EquationBox.Image = Image.FromFile("temp.gif");
+                    RenderEq(equation);
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.ToString());
                 }
-            }
-            else
-            {
-                EquationBox.Image = Image.FromFile("emptyeq.gif");
             }
         }
 
@@ -185,14 +165,6 @@ namespace SoftEquation
             else
             {
                 MessageBox.Show("É necessário selecionar as Equações antes.", "Não há Equações selecionadas!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            }
-        }
-
-        private void MenuSugestoes_Click(object sender, EventArgs e)
-        {
-            if (MessageBox.Show("O SoftEquation irá abrir seu gerenciador de email padrão para enviar uma menssagem para nossa equipe de desenvolvimento.", "Enviar Sugestão", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
-            {
-                Process.Start("mailto:dougmaitelli@hotmail.com");
             }
         }
 
@@ -383,11 +355,6 @@ namespace SoftEquation
             }
         }
 
-        private void MenuArquivoAjuda_Click(object sender, EventArgs e)
-        {
-            Help.ShowHelp(this, "SoftEquation.chm");
-        }
-
         private void MenuExportarImagens_Click(object sender, EventArgs e)
         {
             if (ListMenu.CheckedItems.Count > 0)
@@ -403,17 +370,13 @@ namespace SoftEquation
 
                         if (File.Exists(ExportImagesDialog.SelectedPath + "\\" + item.Text + ".gif"))
                         {
-                            if (MessageBox.Show("Um dos nomes de arquivo necessários para a exportação das Equações já está em uso na pasta selecionada. Deseja substituir este arquivo?", "Arquivo já Existe!", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                            if (MessageBox.Show("Um dos nomes de arquivo necessários para a exportação das Equações já está em uso na pasta selecionada. Deseja substituir este arquivo?", "Arquivo já Existe!", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes)
                             {
-                                CreateGifFromEq("\\reverse\\Huge " + element.Attributes["Eq"].InnerText, ExportImagesDialog.SelectedPath + "\\" + item.Text + ".gif");
-                                CreateGifFromEq("\\reverse x", "temp.gif");
+                                return;
                             }
                         }
-                        else
-                        {
-                            CreateGifFromEq("\\reverse\\Huge " + element.Attributes["Eq"].InnerText, ExportImagesDialog.SelectedPath + "\\" + item.Text + ".gif");
-                            CreateGifFromEq("\\reverse x", "temp.gif");
-                        }
+
+                        CreateGifFromEq("\\reverse\\Huge " + element.Attributes["Eq"].InnerText, ExportImagesDialog.SelectedPath + "\\" + item.Text + ".gif");
                     }
                 }
             }
@@ -423,11 +386,9 @@ namespace SoftEquation
             }
         }
 
-        private void MenuBusca_KeyDown(object sender, KeyEventArgs e)
+        private void MenuBusca_TextChanged(object sender, EventArgs e)
         {
-            if (e.KeyCode == Keys.Enter) {
-                AtualizarMenu();
-            }
+               AtualizarMenu();
         }
 
         private void ListMenuContextAdicionarExercicio_Click(object sender, EventArgs e)
@@ -543,17 +504,13 @@ namespace SoftEquation
 
                         if (File.Exists(ExportImagesDialog.SelectedPath + "\\" + Titulo.Text + ".gif"))
                         {
-                            if (MessageBox.Show("Um dos nomes de arquivo necessários para a exportação das Equações já está em uso na pasta selecionada. Deseja substituir este arquivo?", "Arquivo já Existe!", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                            if (MessageBox.Show("Um dos nomes de arquivo necessários para a exportação das Equações já está em uso na pasta selecionada. Deseja substituir este arquivo?", "Arquivo já Existe!", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes)
                             {
-                                CreateGifFromEq("\\reverse\\Huge " + element.Attributes["Eq"].InnerText, ExportImagesDialog.SelectedPath + "\\" + Titulo.Text + ".gif");
-                                CreateGifFromEq("\\reverse x", "temp.gif");
+                                return;
                             }
                         }
-                        else
-                        {
-                            CreateGifFromEq("\\reverse\\Huge " + element.Attributes["Eq"].InnerText, ExportImagesDialog.SelectedPath + "\\" + Titulo.Text + ".gif");
-                            CreateGifFromEq("\\reverse x", "temp.gif");
-                        }
+
+                        CreateGifFromEq("\\reverse\\Huge " + element.Attributes["Eq"].InnerText, ExportImagesDialog.SelectedPath + "\\" + Titulo.Text + ".gif");
                 }
             }
         }
@@ -596,5 +553,6 @@ namespace SoftEquation
                 MessageBox.Show("É necessário selecionar as Equações antes.", "Não há Equações selecionadas!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
+
     }
 }
