@@ -27,8 +27,10 @@ namespace SoftEquation
 
         private void RenderEq(String eq)
         {
-            CreateGifFromEq("\\reverse\\Huge " + eq + " \\reverse", "temp.gif");
+            CreateGifFromEq("\\reverse x", "temp.gif");
+            CreateGifFromEq("\\Huge " + eq, "temp.gif");
             EquationBox.Image = Image.FromFile("temp.gif");
+            CreateGifFromEq("\\reverse x", "temp.gif");
         }
 
         private void MenuSobre_Click(object sender, EventArgs e)
