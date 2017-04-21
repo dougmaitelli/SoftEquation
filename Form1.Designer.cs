@@ -101,8 +101,8 @@
             this.MenuArquivo,
             this.MenuFerramentas,
             this.MenuAjuda,
-            this.MenuBusca,
-            this.MenuBuscar});
+            this.MenuBuscar,
+            this.MenuBusca});
             this.MenuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.MenuPrincipal.Name = "MenuPrincipal";
             this.MenuPrincipal.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
@@ -247,8 +247,8 @@
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(151)))), ((int)(((byte)(128)))));
-            this.splitContainer1.Panel2.BackgroundImage = global::SoftEquation.Properties.Resources.bgr;
+            this.splitContainer1.Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.splitContainer1.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer1.Panel2.Controls.Add(this.Categoria);
             this.splitContainer1.Panel2.Controls.Add(this.EquationBox);
             this.splitContainer1.Panel2.Controls.Add(this.Titulo);
@@ -264,7 +264,6 @@
             // 
             this.ListMenu.AllowColumnReorder = true;
             this.ListMenu.AllowDrop = true;
-            this.ListMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ListMenu.CheckBoxes = true;
             this.ListMenu.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
@@ -272,7 +271,6 @@
             this.ListMenu.ContextMenuStrip = this.ListMenuContext;
             this.ListMenu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ListMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ListMenu.ForeColor = System.Drawing.Color.White;
             this.ListMenu.Location = new System.Drawing.Point(0, 0);
             this.ListMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ListMenu.MultiSelect = false;

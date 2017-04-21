@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("SoftEquation")]
-[assembly: AssemblyDescription("Software de auxílio no estudo da Física.\nCriado por:\n Douglas Alan Maitelli\n Nícolas Fernando Hernandez Hoffmann\n Nilson Danowski Pereira")]
+[assembly: AssemblyDescription("Software de auxílio no estudo da Física.\r\nCriado por:\r\n Douglas Alan Maitelli\r\n Nícolas Fernando Hernandez Hoffmann\r\n Nilson Danowski Pereira")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("SoftEquation")]
 [assembly: AssemblyProduct("SoftEquation")]

@@ -87,7 +87,7 @@ namespace SoftEquation
             {
                 try
                 {
-                    CreateGifFromEq("\\large " + equation, "temp.gif");
+                    CreateGifFromEq("\\Huge " + equation, "temp.gif");
                     EquationBox.Image = Image.FromFile("temp.gif");
                 }
                 catch (Exception ex)
@@ -405,13 +405,13 @@ namespace SoftEquation
                         {
                             if (MessageBox.Show("Um dos nomes de arquivo necessários para a exportação das Equações já está em uso na pasta selecionada. Deseja substituir este arquivo?", "Arquivo já Existe!", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                             {
-                                CreateGifFromEq("\\reverse\\large " + element.Attributes["Eq"].InnerText, ExportImagesDialog.SelectedPath + "\\" + item.Text + ".gif");
+                                CreateGifFromEq("\\reverse\\Huge " + element.Attributes["Eq"].InnerText, ExportImagesDialog.SelectedPath + "\\" + item.Text + ".gif");
                                 CreateGifFromEq("\\reverse x", "temp.gif");
                             }
                         }
                         else
                         {
-                            CreateGifFromEq("\\reverse\\large " + element.Attributes["Eq"].InnerText, ExportImagesDialog.SelectedPath + "\\" + item.Text + ".gif");
+                            CreateGifFromEq("\\reverse\\Huge " + element.Attributes["Eq"].InnerText, ExportImagesDialog.SelectedPath + "\\" + item.Text + ".gif");
                             CreateGifFromEq("\\reverse x", "temp.gif");
                         }
                     }
@@ -545,13 +545,13 @@ namespace SoftEquation
                         {
                             if (MessageBox.Show("Um dos nomes de arquivo necessários para a exportação das Equações já está em uso na pasta selecionada. Deseja substituir este arquivo?", "Arquivo já Existe!", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                             {
-                                CreateGifFromEq("\\reverse\\large " + element.Attributes["Eq"].InnerText, ExportImagesDialog.SelectedPath + "\\" + Titulo.Text + ".gif");
+                                CreateGifFromEq("\\reverse\\Huge " + element.Attributes["Eq"].InnerText, ExportImagesDialog.SelectedPath + "\\" + Titulo.Text + ".gif");
                                 CreateGifFromEq("\\reverse x", "temp.gif");
                             }
                         }
                         else
                         {
-                            CreateGifFromEq("\\reverse\\large " + element.Attributes["Eq"].InnerText, ExportImagesDialog.SelectedPath + "\\" + Titulo.Text + ".gif");
+                            CreateGifFromEq("\\reverse\\Huge " + element.Attributes["Eq"].InnerText, ExportImagesDialog.SelectedPath + "\\" + Titulo.Text + ".gif");
                             CreateGifFromEq("\\reverse x", "temp.gif");
                         }
                 }
