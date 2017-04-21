@@ -170,8 +170,6 @@
   <ItemGroup>
     <Content Include="app.ico" />
     <None Include="Einstein.jpg" />
-    <None Include="bg.jpg" />
-    <None Include="bgr.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
