@@ -50,8 +50,8 @@
             this.MenuBuscar = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.ListMenu = new System.Windows.Forms.ListView();
-            this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ListMenuContext = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.ListMenuContextSelecionarCategoria = new System.Windows.Forms.ToolStripMenuItem();
             this.ListMenuContextSelecionarTudo = new System.Windows.Forms.ToolStripMenuItem();
@@ -77,6 +77,7 @@
             this.ExportTextDialog = new System.Windows.Forms.SaveFileDialog();
             MenuAdicionarEquacao = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuPrincipal.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -89,12 +90,13 @@
             // MenuAdicionarEquacao
             // 
             MenuAdicionarEquacao.Name = "MenuAdicionarEquacao";
-            MenuAdicionarEquacao.Size = new System.Drawing.Size(174, 22);
+            MenuAdicionarEquacao.Size = new System.Drawing.Size(243, 30);
             MenuAdicionarEquacao.Text = "Adicionar Equação";
             MenuAdicionarEquacao.Click += new System.EventHandler(this.MenuAdicionarEquacao_Click);
             // 
             // MenuPrincipal
             // 
+            this.MenuPrincipal.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.MenuPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuArquivo,
             this.MenuFerramentas,
@@ -103,7 +105,8 @@
             this.MenuBuscar});
             this.MenuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.MenuPrincipal.Name = "MenuPrincipal";
-            this.MenuPrincipal.Size = new System.Drawing.Size(624, 27);
+            this.MenuPrincipal.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
+            this.MenuPrincipal.Size = new System.Drawing.Size(936, 37);
             this.MenuPrincipal.TabIndex = 0;
             this.MenuPrincipal.Text = "menuStrip1";
             // 
@@ -115,34 +118,34 @@
             this.MenuExportarImagens,
             this.exportarParaTextoToolStripMenuItem1});
             this.MenuArquivo.Name = "MenuArquivo";
-            this.MenuArquivo.Size = new System.Drawing.Size(61, 23);
+            this.MenuArquivo.Size = new System.Drawing.Size(87, 31);
             this.MenuArquivo.Text = "Arquivo";
             // 
             // MenuImportarEquacoes
             // 
             this.MenuImportarEquacoes.Name = "MenuImportarEquacoes";
-            this.MenuImportarEquacoes.Size = new System.Drawing.Size(175, 22);
+            this.MenuImportarEquacoes.Size = new System.Drawing.Size(248, 30);
             this.MenuImportarEquacoes.Text = "Importar Equações";
             this.MenuImportarEquacoes.Click += new System.EventHandler(this.MenuImportarEquacoes_Click);
             // 
             // MenuExportarEquacoes
             // 
             this.MenuExportarEquacoes.Name = "MenuExportarEquacoes";
-            this.MenuExportarEquacoes.Size = new System.Drawing.Size(175, 22);
+            this.MenuExportarEquacoes.Size = new System.Drawing.Size(248, 30);
             this.MenuExportarEquacoes.Text = "Exportar Equações";
             this.MenuExportarEquacoes.Click += new System.EventHandler(this.MenuExportarEquacoes_Click);
             // 
             // MenuExportarImagens
             // 
             this.MenuExportarImagens.Name = "MenuExportarImagens";
-            this.MenuExportarImagens.Size = new System.Drawing.Size(175, 22);
+            this.MenuExportarImagens.Size = new System.Drawing.Size(248, 30);
             this.MenuExportarImagens.Text = "Exportar Imagens";
             this.MenuExportarImagens.Click += new System.EventHandler(this.MenuExportarImagens_Click);
             // 
             // exportarParaTextoToolStripMenuItem1
             // 
             this.exportarParaTextoToolStripMenuItem1.Name = "exportarParaTextoToolStripMenuItem1";
-            this.exportarParaTextoToolStripMenuItem1.Size = new System.Drawing.Size(175, 22);
+            this.exportarParaTextoToolStripMenuItem1.Size = new System.Drawing.Size(248, 30);
             this.exportarParaTextoToolStripMenuItem1.Text = "Exportar para Texto";
             this.exportarParaTextoToolStripMenuItem1.Click += new System.EventHandler(this.exportarParaTextoToolStripMenuItem1_Click);
             // 
@@ -155,34 +158,34 @@
             this.MenuEditarExercicio,
             this.MenuExcluirEquacoes});
             this.MenuFerramentas.Name = "MenuFerramentas";
-            this.MenuFerramentas.Size = new System.Drawing.Size(84, 23);
+            this.MenuFerramentas.Size = new System.Drawing.Size(121, 31);
             this.MenuFerramentas.Text = "Ferramentas";
             // 
             // MenuAdicionarExercicio
             // 
             this.MenuAdicionarExercicio.Name = "MenuAdicionarExercicio";
-            this.MenuAdicionarExercicio.Size = new System.Drawing.Size(174, 22);
+            this.MenuAdicionarExercicio.Size = new System.Drawing.Size(243, 30);
             this.MenuAdicionarExercicio.Text = "Adicionar Exercício";
             this.MenuAdicionarExercicio.Click += new System.EventHandler(this.ListMenuContextAdicionarExercicio_Click);
             // 
             // MenuEditarEquacao
             // 
             this.MenuEditarEquacao.Name = "MenuEditarEquacao";
-            this.MenuEditarEquacao.Size = new System.Drawing.Size(174, 22);
+            this.MenuEditarEquacao.Size = new System.Drawing.Size(243, 30);
             this.MenuEditarEquacao.Text = "Editar Equação";
             this.MenuEditarEquacao.Click += new System.EventHandler(this.MenuEditarEquacao_Click);
             // 
             // MenuEditarExercicio
             // 
             this.MenuEditarExercicio.Name = "MenuEditarExercicio";
-            this.MenuEditarExercicio.Size = new System.Drawing.Size(174, 22);
+            this.MenuEditarExercicio.Size = new System.Drawing.Size(243, 30);
             this.MenuEditarExercicio.Text = "Editar Exercícios";
             this.MenuEditarExercicio.Click += new System.EventHandler(this.ListMenuContextEditarExercicios_Click);
             // 
             // MenuExcluirEquacoes
             // 
             this.MenuExcluirEquacoes.Name = "MenuExcluirEquacoes";
-            this.MenuExcluirEquacoes.Size = new System.Drawing.Size(174, 22);
+            this.MenuExcluirEquacoes.Size = new System.Drawing.Size(243, 30);
             this.MenuExcluirEquacoes.Text = "Excluir Equações";
             this.MenuExcluirEquacoes.Click += new System.EventHandler(this.MenuExcluirEquacoes_Click);
             // 
@@ -193,47 +196,48 @@
             this.MenuSugestoes,
             this.MenuSobre});
             this.MenuAjuda.Name = "MenuAjuda";
-            this.MenuAjuda.Size = new System.Drawing.Size(50, 23);
+            this.MenuAjuda.Size = new System.Drawing.Size(70, 31);
             this.MenuAjuda.Text = "Ajuda";
             // 
             // MenuArquivoAjuda
             // 
             this.MenuArquivoAjuda.Name = "MenuArquivoAjuda";
-            this.MenuArquivoAjuda.Size = new System.Drawing.Size(166, 22);
+            this.MenuArquivoAjuda.Size = new System.Drawing.Size(235, 30);
             this.MenuArquivoAjuda.Text = "Arquivo de Ajuda";
             this.MenuArquivoAjuda.Click += new System.EventHandler(this.MenuArquivoAjuda_Click);
             // 
             // MenuSugestoes
             // 
             this.MenuSugestoes.Name = "MenuSugestoes";
-            this.MenuSugestoes.Size = new System.Drawing.Size(166, 22);
+            this.MenuSugestoes.Size = new System.Drawing.Size(235, 30);
             this.MenuSugestoes.Text = "Sugestões";
             this.MenuSugestoes.Click += new System.EventHandler(this.MenuSugestoes_Click);
             // 
             // MenuSobre
             // 
             this.MenuSobre.Name = "MenuSobre";
-            this.MenuSobre.Size = new System.Drawing.Size(166, 22);
+            this.MenuSobre.Size = new System.Drawing.Size(235, 30);
             this.MenuSobre.Text = "Sobre...";
             this.MenuSobre.Click += new System.EventHandler(this.MenuSobre_Click);
             // 
             // MenuBusca
             // 
             this.MenuBusca.Name = "MenuBusca";
-            this.MenuBusca.Size = new System.Drawing.Size(100, 23);
+            this.MenuBusca.Size = new System.Drawing.Size(148, 31);
             this.MenuBusca.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MenuBusca_KeyDown);
             // 
             // MenuBuscar
             // 
             this.MenuBuscar.Name = "MenuBuscar";
-            this.MenuBuscar.Size = new System.Drawing.Size(54, 23);
+            this.MenuBuscar.Size = new System.Drawing.Size(75, 31);
             this.MenuBuscar.Text = "Buscar";
             this.MenuBuscar.Click += new System.EventHandler(this.MenuBuscar_Click);
             // 
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 27);
+            this.splitContainer1.Location = new System.Drawing.Point(0, 37);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -243,6 +247,7 @@
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(151)))), ((int)(((byte)(128)))));
             this.splitContainer1.Panel2.BackgroundImage = global::SoftEquation.Properties.Resources.bgr;
             this.splitContainer1.Panel2.Controls.Add(this.Categoria);
             this.splitContainer1.Panel2.Controls.Add(this.EquationBox);
@@ -250,16 +255,16 @@
             this.splitContainer1.Panel2.Controls.Add(this.BotaoExercicios);
             this.splitContainer1.Panel2.Controls.Add(this.Descricao);
             this.splitContainer1.Panel2.Resize += new System.EventHandler(this.splitContainer1_Panel2_Resize);
-            this.splitContainer1.Size = new System.Drawing.Size(624, 415);
-            this.splitContainer1.SplitterDistance = 200;
+            this.splitContainer1.Size = new System.Drawing.Size(936, 643);
+            this.splitContainer1.SplitterDistance = 300;
+            this.splitContainer1.SplitterWidth = 6;
             this.splitContainer1.TabIndex = 1;
             // 
             // ListMenu
             // 
             this.ListMenu.AllowColumnReorder = true;
             this.ListMenu.AllowDrop = true;
-            this.ListMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(151)))), ((int)(((byte)(128)))));
-            this.ListMenu.BackgroundImage = global::SoftEquation.Properties.Resources.bg;
+            this.ListMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ListMenu.CheckBoxes = true;
             this.ListMenu.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
@@ -269,17 +274,18 @@
             this.ListMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ListMenu.ForeColor = System.Drawing.Color.White;
             this.ListMenu.Location = new System.Drawing.Point(0, 0);
+            this.ListMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ListMenu.MultiSelect = false;
             this.ListMenu.Name = "ListMenu";
-            this.ListMenu.Size = new System.Drawing.Size(200, 415);
+            this.ListMenu.Size = new System.Drawing.Size(300, 643);
             this.ListMenu.TabIndex = 0;
             this.ListMenu.UseCompatibleStateImageBehavior = false;
             this.ListMenu.View = System.Windows.Forms.View.Details;
-            this.ListMenu.DoubleClick += new System.EventHandler(this.ListMenu_DoubleClick);
+            this.ListMenu.ItemDrag += new System.Windows.Forms.ItemDragEventHandler(this.ListMenu_ItemDrag);
             this.ListMenu.DragDrop += new System.Windows.Forms.DragEventHandler(this.ListMenu_DragDrop);
             this.ListMenu.DragEnter += new System.Windows.Forms.DragEventHandler(this.ListMenu_DragEnter);
+            this.ListMenu.DoubleClick += new System.EventHandler(this.ListMenu_DoubleClick);
             this.ListMenu.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ListMenu_KeyDown);
-            this.ListMenu.ItemDrag += new System.Windows.Forms.ItemDragEventHandler(this.ListMenu_ItemDrag);
             // 
             // columnHeader1
             // 
@@ -293,6 +299,7 @@
             // 
             // ListMenuContext
             // 
+            this.ListMenuContext.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.ListMenuContext.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ListMenuContextSelecionarCategoria,
             this.ListMenuContextSelecionarTudo,
@@ -303,61 +310,61 @@
             this.ListMenuContextExcluirEquacao,
             this.ListMenuContextExcluirEquacoes});
             this.ListMenuContext.Name = "contextMenuStrip1";
-            this.ListMenuContext.Size = new System.Drawing.Size(183, 180);
+            this.ListMenuContext.Size = new System.Drawing.Size(246, 244);
             // 
             // ListMenuContextSelecionarCategoria
             // 
             this.ListMenuContextSelecionarCategoria.Name = "ListMenuContextSelecionarCategoria";
-            this.ListMenuContextSelecionarCategoria.Size = new System.Drawing.Size(182, 22);
+            this.ListMenuContextSelecionarCategoria.Size = new System.Drawing.Size(245, 30);
             this.ListMenuContextSelecionarCategoria.Text = "Selecionar Categoria";
             this.ListMenuContextSelecionarCategoria.Click += new System.EventHandler(this.ListMenuContextSelecionarCategoria_Click);
             // 
             // ListMenuContextSelecionarTudo
             // 
             this.ListMenuContextSelecionarTudo.Name = "ListMenuContextSelecionarTudo";
-            this.ListMenuContextSelecionarTudo.Size = new System.Drawing.Size(182, 22);
+            this.ListMenuContextSelecionarTudo.Size = new System.Drawing.Size(245, 30);
             this.ListMenuContextSelecionarTudo.Text = "Selecionar Tudo";
             this.ListMenuContextSelecionarTudo.Click += new System.EventHandler(this.ListMenuContextSelecionarTudo_Click);
             // 
             // ListMenuContextAdicionarEquacao
             // 
             this.ListMenuContextAdicionarEquacao.Name = "ListMenuContextAdicionarEquacao";
-            this.ListMenuContextAdicionarEquacao.Size = new System.Drawing.Size(182, 22);
+            this.ListMenuContextAdicionarEquacao.Size = new System.Drawing.Size(245, 30);
             this.ListMenuContextAdicionarEquacao.Text = "Adicionar Equação";
             this.ListMenuContextAdicionarEquacao.Click += new System.EventHandler(this.ListMenuContextAdicionarEquacao_Click);
             // 
             // ListMenuContextAdicionarExercicio
             // 
             this.ListMenuContextAdicionarExercicio.Name = "ListMenuContextAdicionarExercicio";
-            this.ListMenuContextAdicionarExercicio.Size = new System.Drawing.Size(182, 22);
+            this.ListMenuContextAdicionarExercicio.Size = new System.Drawing.Size(245, 30);
             this.ListMenuContextAdicionarExercicio.Text = "Adicionar Exercício";
             this.ListMenuContextAdicionarExercicio.Click += new System.EventHandler(this.ListMenuContextAdicionarExercicio_Click);
             // 
             // ListMenuContextEditarEquacao
             // 
             this.ListMenuContextEditarEquacao.Name = "ListMenuContextEditarEquacao";
-            this.ListMenuContextEditarEquacao.Size = new System.Drawing.Size(182, 22);
+            this.ListMenuContextEditarEquacao.Size = new System.Drawing.Size(245, 30);
             this.ListMenuContextEditarEquacao.Text = "Editar Equação";
             this.ListMenuContextEditarEquacao.Click += new System.EventHandler(this.MenuEditarEquacao_Click);
             // 
             // ListMenuContextEditarExercicio
             // 
             this.ListMenuContextEditarExercicio.Name = "ListMenuContextEditarExercicio";
-            this.ListMenuContextEditarExercicio.Size = new System.Drawing.Size(182, 22);
+            this.ListMenuContextEditarExercicio.Size = new System.Drawing.Size(245, 30);
             this.ListMenuContextEditarExercicio.Text = "Editar Exercícios";
             this.ListMenuContextEditarExercicio.Click += new System.EventHandler(this.ListMenuContextEditarExercicios_Click);
             // 
             // ListMenuContextExcluirEquacao
             // 
             this.ListMenuContextExcluirEquacao.Name = "ListMenuContextExcluirEquacao";
-            this.ListMenuContextExcluirEquacao.Size = new System.Drawing.Size(182, 22);
+            this.ListMenuContextExcluirEquacao.Size = new System.Drawing.Size(245, 30);
             this.ListMenuContextExcluirEquacao.Text = "Excluir Equação";
             this.ListMenuContextExcluirEquacao.Click += new System.EventHandler(this.ListMenuContextExcluirEquacao_Click);
             // 
             // ListMenuContextExcluirEquacoes
             // 
             this.ListMenuContextExcluirEquacoes.Name = "ListMenuContextExcluirEquacoes";
-            this.ListMenuContextExcluirEquacoes.Size = new System.Drawing.Size(182, 22);
+            this.ListMenuContextExcluirEquacoes.Size = new System.Drawing.Size(245, 30);
             this.ListMenuContextExcluirEquacoes.Text = "Excluir Equações";
             this.ListMenuContextExcluirEquacoes.Click += new System.EventHandler(this.MenuExcluirEquacoes_Click);
             // 
@@ -366,32 +373,35 @@
             this.Categoria.BackColor = System.Drawing.Color.Transparent;
             this.Categoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Categoria.ForeColor = System.Drawing.Color.White;
-            this.Categoria.Location = new System.Drawing.Point(278, 18);
+            this.Categoria.Location = new System.Drawing.Point(417, 28);
+            this.Categoria.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Categoria.Name = "Categoria";
-            this.Categoria.Size = new System.Drawing.Size(130, 23);
+            this.Categoria.Size = new System.Drawing.Size(195, 35);
             this.Categoria.TabIndex = 4;
             // 
             // EquationBox
             // 
             this.EquationBox.BackColor = System.Drawing.Color.Transparent;
             this.EquationBox.ContextMenuStrip = this.ImageContext;
-            this.EquationBox.Location = new System.Drawing.Point(36, 167);
+            this.EquationBox.Location = new System.Drawing.Point(54, 257);
+            this.EquationBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.EquationBox.Name = "EquationBox";
-            this.EquationBox.Size = new System.Drawing.Size(373, 103);
+            this.EquationBox.Size = new System.Drawing.Size(560, 158);
             this.EquationBox.TabIndex = 3;
             this.EquationBox.TabStop = false;
             // 
             // ImageContext
             // 
+            this.ImageContext.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.ImageContext.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.exportarImagemToolStripMenuItem});
             this.ImageContext.Name = "ImageContext";
-            this.ImageContext.Size = new System.Drawing.Size(165, 26);
+            this.ImageContext.Size = new System.Drawing.Size(222, 34);
             // 
             // exportarImagemToolStripMenuItem
             // 
             this.exportarImagemToolStripMenuItem.Name = "exportarImagemToolStripMenuItem";
-            this.exportarImagemToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.exportarImagemToolStripMenuItem.Size = new System.Drawing.Size(221, 30);
             this.exportarImagemToolStripMenuItem.Text = "Exportar Imagem";
             this.exportarImagemToolStripMenuItem.Click += new System.EventHandler(this.exportarImagemToolStripMenuItem_Click);
             // 
@@ -400,17 +410,19 @@
             this.Titulo.BackColor = System.Drawing.Color.Transparent;
             this.Titulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Titulo.ForeColor = System.Drawing.Color.White;
-            this.Titulo.Location = new System.Drawing.Point(16, 18);
+            this.Titulo.Location = new System.Drawing.Point(24, 28);
+            this.Titulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Titulo.Name = "Titulo";
-            this.Titulo.Size = new System.Drawing.Size(256, 23);
+            this.Titulo.Size = new System.Drawing.Size(384, 35);
             this.Titulo.TabIndex = 2;
             // 
             // BotaoExercicios
             // 
             this.BotaoExercicios.Enabled = false;
-            this.BotaoExercicios.Location = new System.Drawing.Point(325, 380);
+            this.BotaoExercicios.Location = new System.Drawing.Point(488, 585);
+            this.BotaoExercicios.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BotaoExercicios.Name = "BotaoExercicios";
-            this.BotaoExercicios.Size = new System.Drawing.Size(75, 23);
+            this.BotaoExercicios.Size = new System.Drawing.Size(112, 35);
             this.BotaoExercicios.TabIndex = 1;
             this.BotaoExercicios.Text = "Exercícios";
             this.BotaoExercicios.UseVisualStyleBackColor = true;
@@ -422,22 +434,24 @@
             this.Descricao.ContextMenuStrip = this.DescricaoContext;
             this.Descricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Descricao.ForeColor = System.Drawing.SystemColors.Window;
-            this.Descricao.Location = new System.Drawing.Point(32, 41);
+            this.Descricao.Location = new System.Drawing.Point(48, 63);
+            this.Descricao.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Descricao.Name = "Descricao";
-            this.Descricao.Size = new System.Drawing.Size(376, 123);
+            this.Descricao.Size = new System.Drawing.Size(564, 189);
             this.Descricao.TabIndex = 0;
             // 
             // DescricaoContext
             // 
+            this.DescricaoContext.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.DescricaoContext.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.exportarParaTextoToolStripMenuItem});
             this.DescricaoContext.Name = "DescricaoContext";
-            this.DescricaoContext.Size = new System.Drawing.Size(176, 26);
+            this.DescricaoContext.Size = new System.Drawing.Size(237, 34);
             // 
             // exportarParaTextoToolStripMenuItem
             // 
             this.exportarParaTextoToolStripMenuItem.Name = "exportarParaTextoToolStripMenuItem";
-            this.exportarParaTextoToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.exportarParaTextoToolStripMenuItem.Size = new System.Drawing.Size(236, 30);
             this.exportarParaTextoToolStripMenuItem.Text = "Exportar para Texto";
             // 
             // ImportEquationsDialog
@@ -469,15 +483,16 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 442);
+            this.ClientSize = new System.Drawing.Size(936, 680);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.MenuPrincipal);
             this.HelpButton = true;
             this.SoftEquationHelp.SetHelpNavigator(this, System.Windows.Forms.HelpNavigator.TableOfContents);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.MenuPrincipal;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.SoftEquationHelp.SetShowHelp(this, true);
             this.Text = "SoftEquation";
@@ -487,6 +502,7 @@
             this.MenuPrincipal.PerformLayout();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             this.ListMenuContext.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.EquationBox)).EndInit();
