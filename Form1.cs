@@ -27,7 +27,7 @@ namespace SoftEquation
 
         private void RenderEq(String eq)
         {
-            CreateGifFromEq("\\drawcolor(1,1,1)\\Huge " + eq, "temp.gif");
+            CreateGifFromEq("\\reverse\\Huge " + eq + "\\reverse", "temp.gif");
             EquationBox.Image = Image.FromFile("temp.gif");
         }
 
@@ -376,7 +376,7 @@ namespace SoftEquation
                             }
                         }
 
-                        CreateGifFromEq("\\drawcolor(0,0,0)\\Huge " + element.Attributes["Eq"].InnerText, ExportImagesDialog.SelectedPath + "\\" + item.Text + ".gif");
+                        CreateGifFromEq("\\Huge " + element.Attributes["Eq"].InnerText, ExportImagesDialog.SelectedPath + "\\" + item.Text + ".gif");
                     }
                 }
             }
@@ -510,7 +510,7 @@ namespace SoftEquation
                             }
                         }
 
-                        CreateGifFromEq("\\drawcolor(0,0,0)\\Huge " + element.Attributes["Eq"].InnerText, ExportImagesDialog.SelectedPath + "\\" + Titulo.Text + ".gif");
+                        CreateGifFromEq("\\Huge " + element.Attributes["Eq"].InnerText, ExportImagesDialog.SelectedPath + "\\" + Titulo.Text + ".gif");
                 }
             }
         }
